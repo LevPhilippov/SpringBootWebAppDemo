@@ -14,8 +14,8 @@ public class Book {
     private String isbn;
 
     @OneToOne
-    @JoinColumn(name = "Publisher_name", referencedColumnName = "name")
-    @JoinColumn(name = "Publisher_address", referencedColumnName = "address")
+//    @JoinColumn(name = "Publisher_name", referencedColumnName = "name")
+//    @JoinColumn(name = "Publisher_address", referencedColumnName = "address")
     private Publisher publisher;
 
     @ManyToMany
